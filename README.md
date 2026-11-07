@@ -42,7 +42,7 @@ Run Locally
 
 1. Clone this repository:
    
-   git clone YOUR_REPOSITORY_URL
+   git clone (https://github.com/inzyhere/gradient-color-generator)
 
 2. Open the project folder:
    
