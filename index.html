@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Async project</title>
+</head>
+<body id= "bg">
+
+<div class="toast" id="toast">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message">Color copied!</span>
+</div>
+    
+    <div class="container">
+    <button id="start">PLAY ▶️</button>
+    <button id="stop">PAUSE ⏸️</button>
+    </div>
+
+    <div class="palette-card" hidden>
+    <div class="palette-header">
+       <!---  <h1>Color Palette</h1>--->
+        <p style="color: #fff; font-weight: bolder;">Your generated colors</p>
+    </div>
+
+    <div class="color-preview">
+        <div class="color-box" id="color1"></div>
+        <div class="color-box" id="color2"></div>
+        <div class="color-box" id="color3"></div>
+        <div class="color-box" id="color4"></div>
+    </div>
+
+    <div class="hex-list">
+        <div class="hex-item">
+            <span class="color-dot" id="dot1"></span>
+            <span class="hex-value" id="hex1">#------</span>
+            <button class="copy-btn" data-color="0">COPY</button>
+        </div>
+
+        <div class="hex-item">
+            <span class="color-dot" id="dot2"></span>
+            <span class="hex-value" id="hex2">#------</span>
+            <button class="copy-btn" data-color="1">COPY</button>
+        </div>
+
+        <div class="hex-item">
+            <span class="color-dot" id="dot3"></span>
+            <span class="hex-value" id="hex3">#------</span>
+            <button class="copy-btn" data-color="2">COPY</button>
+        </div>
+
+        <div class="hex-item">
+            <span class="color-dot" id="dot4"></span>
+            <span class="hex-value" id="hex4">#------</span>
+            <button class="copy-btn" data-color="3">COPY</button>
+        </div>
+    </div>
+
+    <p class="copy-status" id="copyStatus"></p>
+    </div>
+    
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>
