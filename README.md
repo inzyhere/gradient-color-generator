@@ -5,6 +5,8 @@ Generate random HEX color palettes with animated gradients and one-click copying
 🎨 Gradient Color Generator
 
 🔴 Live Preview: https://inzyhere.github.io/gradient-color-generator/
+
+
 A simple and interactive Gradient Color Generator built using HTML, CSS, and JavaScript.
 
 Generate random HEX color palettes, explore animated gradients, and copy your favorite colors with a single click.
